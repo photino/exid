@@ -2,18 +2,18 @@
 `exid` is short for **Exchangeable Identifiers**, providing a uniform representation
 of identifiers which can be shared accross resource providers.
 It is designed as the following format:
-```bash
+```text
 exid://TYPE/IDENTIFIER?PARAMETERS
 ```
 
 # Examples
 
-```bash
+```text
 # Auth related identifiers.
 exid://appid/13708001?issuer=dingtalk
 exid://openid/ou_5f1123de598ff9a29cba5ffd798c6dbd?issuer=lark
 exid://unionid/pzyngsulJFCZ2z1aYeS8h-nuasde8g?issuer=wechat
-exid://userid/018f66bb-244b-71c2-9bdd-736afbe5a6c6
+exid://userid/018f66bb-244b-71c2-9bdd-736afbe5a6c6?format=uuid&version=7
 
 # Standard ID formats.
 exid://mongodb-oid/507f191e810c19729de860ea
